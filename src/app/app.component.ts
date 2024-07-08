@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'project';
+  
+  cursos:boolean = true;
+
+  Cambio(){
+    this.cursos = !this.cursos;
+  }
+
 }
